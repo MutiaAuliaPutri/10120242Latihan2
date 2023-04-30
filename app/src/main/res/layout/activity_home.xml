@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!-- Tanggal Pengerjaan : 26 April 2023 -->
+    <!-- Deskripsi Pekerjaan : Latihan2 -->
+    <!-- Nim : 10120242 -->
+    <!-- Nama: Mutia Aulia Putri -->
+    <!-- Kelas: IF6 -->
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context=".HomeActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/bg"
+            android:layout_width="420dp"
+            android:layout_height="149dp"
+            android:background="@drawable/bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.909"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/notif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.958"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.053" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/menu"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Mutia Aulia Putri"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/pp"
+            app:layout_constraintStart_toStartOf="@+id/pp"
+            app:layout_constraintTop_toBottomOf="@+id/pp" />
+
+        <TextView
+            android:id="@+id/a31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood type B "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/text"
+            app:layout_constraintStart_toStartOf="@+id/text"
+            app:layout_constraintTop_toBottomOf="@+id/text" />
+
+        <View
+            android:id="@+id/gr0"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a31" />
+
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginTop="24dp"
+            android:text="75"
+            android:textColor="@color/blue"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.145"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gr0" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginTop="3dp"
+            android:text="BLOOD GIVE"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView27"
+            app:layout_constraintStart_toStartOf="@+id/textView27"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+        <TextView
+            android:id="@+id/a32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:text="100"
+            android:textColor="@color/blue"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView27"
+            app:layout_constraintStart_toEndOf="@+id/textView27"
+            app:layout_constraintTop_toTopOf="@+id/textView27" />
+
+        <TextView
+            android:id="@+id/a33"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="3dp"
+            android:text="BLOOD RECEIVED"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/a32"
+            app:layout_constraintStart_toStartOf="@+id/a32"
+            app:layout_constraintTop_toBottomOf="@+id/a32" />
+
+        <TextView
+            android:id="@+id/a35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:text="330"
+            android:textColor="@color/blue"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="@+id/a32"
+            app:layout_constraintStart_toEndOf="@+id/a32"
+            app:layout_constraintTop_toTopOf="@+id/a32" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="THANKS"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/a35"
+            app:layout_constraintStart_toStartOf="@+id/a35"
+            app:layout_constraintTop_toBottomOf="@+id/a35" />
+
+        <View
+            android:id="@+id/gr1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a33" />
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="200dp"
+            android:src="@drawable/search"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gr1" />
+
+        <TextView
+            android:id="@+id/a38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Search Donor"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/search"
+            app:layout_constraintStart_toStartOf="@+id/search"
+            app:layout_constraintTop_toBottomOf="@+id/search" />
+
+
+        <TextView
+            android:id="@+id/a39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search donor near you"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/a38"
+            app:layout_constraintStart_toStartOf="@+id/a38"
+            app:layout_constraintTop_toBottomOf="@+id/a38" />
+
+        <ImageView
+            android:id="@+id/nedded"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="80dp"
+            android:src="@drawable/tambah"
+            app:layout_constraintBottom_toBottomOf="@+id/search"
+            app:layout_constraintStart_toEndOf="@+id/search"
+            app:layout_constraintTop_toTopOf="@+id/search" />
+
+        <TextView
+            android:id="@+id/a36"
+            android:layout_width="139dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="4dp"
+            android:text="Blood Needed"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/nedded"
+            app:layout_constraintStart_toStartOf="@+id/nedded"
+            app:layout_constraintTop_toBottomOf="@+id/nedded" />
+
+        <TextView
+            android:id="@+id/a37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 users need blood"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/a36"
+            app:layout_constraintStart_toStartOf="@+id/a36"
+            app:layout_constraintTop_toBottomOf="@+id/a36" />
+
+        <ImageView
+            android:id="@+id/message"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/messages"
+            app:layout_constraintEnd_toEndOf="@+id/search"
+            app:layout_constraintStart_toStartOf="@+id/search"
+            app:layout_constraintTop_toBottomOf="@+id/a39" />
+
+
+        <TextView
+            android:id="@+id/a40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Message"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/message"
+            app:layout_constraintStart_toStartOf="@+id/message"
+            app:layout_constraintTop_toBottomOf="@+id/message" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 new messages"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/a40"
+            app:layout_constraintStart_toStartOf="@+id/a40"
+            app:layout_constraintTop_toBottomOf="@+id/a40" />
+
+        <ImageView
+            android:id="@+id/donor"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/darah"
+            app:layout_constraintBottom_toBottomOf="@+id/message"
+            app:layout_constraintEnd_toEndOf="@+id/nedded"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/nedded"
+            app:layout_constraintTop_toBottomOf="@+id/a37"
+            app:layout_constraintVertical_bias="0.473" />
+
+        <TextView
+            android:id="@+id/a41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Donor History"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/a40"
+            app:layout_constraintEnd_toEndOf="@+id/donor"
+            app:layout_constraintStart_toStartOf="@+id/donor"
+            app:layout_constraintTop_toTopOf="@+id/a40" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 Gives, 2 Received"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/a41"
+            app:layout_constraintStart_toStartOf="@+id/a41"
+            app:layout_constraintTop_toBottomOf="@+id/a41" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pp"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ppacu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
